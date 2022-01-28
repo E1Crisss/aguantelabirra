@@ -12,7 +12,7 @@ body {
 
 header {
     width: 99vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url(./img/0\ -\ beer.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ nav {
 }
 
 #check:checked ~ .nav-menu {
-    height: 100vh;
+    height: 85vh;
 }
 
 #check:checked ~ .nav-menu li{
@@ -106,7 +106,7 @@ article {
 }
 .info p {
     color: #000000;
-    margin: 0 3em;
+    margin: 0 2em;
     line-height: 1.8em;
     font-size: 1.2em;
     text-align: center;
