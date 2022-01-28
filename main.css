@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+header {
+    width: 99vw;
+    height: 80vh;
+    background-image: url(./img/0\ -\ beer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.portada h2 {
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 4em 0.8em;
+    text-shadow: 0px 4px 1px rgba(0,0,0,0.6);
+}
+
+/* <<<<<<<<<< MENU >>>>>>>>>> */
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.logo {
+    width: 85px;
+    margin-left: 20px;
+}
+
+.bar-btn {
+    font-size: 2em;
+    color: cornsilk;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu { 
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    transition: all .3s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 2em;
+    margin: 3em 0;
+    transition: all .5s;
+
+    list-style: none;
+}
+
+.nav-menu li, a {
+    color: cornsilk;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-menu li:hover {
+    color: #DA0037;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+/* <<<<<<<<<< MENU >>>>>>>>>> */
+
+/* <<<<<<<<<< NOSOTROS >>>>>>>>>> */
+
+article {
+    background-color: rgb(221, 221, 221);
+    padding-top: 3em;
+}
+.info p {
+    color: #000000;
+    margin: 0 3em;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+    padding-top: 3em;
+}
+
