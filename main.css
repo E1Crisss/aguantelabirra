@@ -14,7 +14,7 @@ body {
 
 header {
     width: 99vw;
-    height: 100vh;
+    height: 580px;
     background: url(./img/0\ -\ beer.jpg) center center no-repeat;
     background-size: cover;
 }
@@ -32,7 +32,7 @@ header {
     vertical-align: middle;
     font-size: 2em;
     font-weight: 900;
-    margin: 3em 0.8em;
+    margin: 2.5em 0.8em ;
     text-shadow: 0px 3px 1px rgba(0,0,0, .9);
 }
 
@@ -91,8 +91,8 @@ nav {
 }
 
 .nav-menu li, a {
-    color: cornsilk;
-    font-size: 1.2em;
+    color: white;
+    font-size: 1.1em;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -109,7 +109,7 @@ nav {
 }
 
 #check:checked ~ .nav-menu {
-    height: 84vh;
+    height: 95vh;
 }
 
 #check:checked ~ .nav-menu li{
@@ -174,7 +174,7 @@ article {
 
 .contacto { 
     background-color: rgba(0, 0, 0, .8);
-    padding: 1.5em 0 3em 0;
+    padding-top: 1.5em;
 }	
 
 .content-contacto { 
@@ -182,6 +182,8 @@ article {
     padding-bottom: 3em;
     color: white;
     border-bottom: 2px solid white ;
+    text-align: center;
+
 }
 
 .content-contacto h4 {  
@@ -193,6 +195,7 @@ article {
 
 .content-contacto span {    
     font-weight: 400;
+    text-align: center;
 }
 
 .contacto-box { 
@@ -206,11 +209,14 @@ article {
 .fas:hover { 
     color: #DA0037;
 }
+/* <<<<<<<<<< CONTACTO INFO >>>>>>>>>> */
 
 /* <<<<<<<<<< CONTACTO FORM>>>>>>>>>> */
 
 /* IMG DE FONDO */
 .form-img {
+    width: 100%;
+    height: 100%;
     background: url(./img/Beer\ Glass\ Mockup.png) center center no-repeat;
     background-size: cover;
     padding: 2em 0;
@@ -234,6 +240,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 input, textarea{
@@ -268,9 +275,10 @@ input::placeholder {
 }
 
 
-form, p {
+.form-p {
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 0.7em;
     position: relative;
     margin: 0 1em;
     text-align: center;
@@ -290,8 +298,6 @@ form, p {
 }
 
 
-/* <<<<<<<<<< contacto img >>>>>>>>>> */
-
 /* <<<<<<<<<< FOOTER >>>>>>>>>> */
 .pie {  
     background-color: black;
@@ -308,11 +314,28 @@ form, p {
     text-transform: uppercase;
     text-align: center;
     list-style: none;
-    margin: 2em 3em;
+    margin: 1.5em 3em;
     font-size: 300;
 }
 
-.content-pie, span {
-    font-weight: 700;
+
+.redes {
+    padding: 0.8em 1em;
+    cursor: pointer;
+}
+
+.redes:hover {
+    color: black;
+    background-color: white;
+    border-radius: 0.5em;
+    
+}
+.content-pie p {
+    text-align: center;
     padding-bottom: 1em;
+    
+}
+.content-pie span {
+    font-weight: 700;
+    padding-bottom: 1em;   
 }
