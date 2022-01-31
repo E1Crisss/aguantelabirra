@@ -1,119 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {  
-    font-family: 'Zen Maru Gothic', sans-serif;
-    
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 header {
-    width: 99vw;
-    height: 580px;
-    background: url(./img/0\ -\ beer.jpg) center center no-repeat;
-    background-size: cover;
+  width: 99vw;
+  height: 580px;
+  background: url(./img/0\ -\ beer.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 .portada {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .portada h2 {
-    color:white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 2em;
-    font-weight: 900;
-    margin: 2.5em 0.8em ;
-    text-shadow: 0px 3px 1px rgba(0,0,0, .9);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 2.5em 0.8em;
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.9);
 }
 
-.portada a { 
-    padding: 0.5em 1em;
-    background-color: rgba(0, 0, 0, .5);
-    cursor: pointer;
-    border-radius: 0.5em;
+.portada a {
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 0.5em;
 }
 
-.portada a:hover { 
-    background-color: rgba(0, 0, 0, .9);
+.portada a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
 }
-
 
 /* <<<<<<<<<< MENU >>>>>>>>>> */
 
 nav {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, .9);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .logo {
-    width: 85px;
-    margin-left: 20px;
+  width: 85px;
+  margin-left: 20px;
 }
 
 .bar-btn {
-    font-size: 2em;
-    color: cornsilk;
-    margin-right: 20px;
-    cursor: pointer;
+  font-size: 2em;
+  color: cornsilk;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-.nav-menu { 
-    position: absolute;
-    width: 100%;
-    top: 100px;
-    background: rgba(0, 0, 0, .9);
-    text-align: center;
-    transition: all .3s;
-    
+.nav-menu {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: all 0.3s;
 }
 
 .nav-menu li {
-    display: none;
-    line-height: 2em;
-    margin: 3em 0;
-    transition: all .5s;
-    
-    list-style: none;
+  display: none;
+  line-height: 2em;
+  margin: 3em 0;
+  transition: all 0.5s;
+
+  list-style: none;
 }
 
-.nav-menu li, a {
-    color: white;
-    font-size: 1.1em;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
+.nav-menu li,
+a {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-menu a:hover {
-    color: #DA0037;
-    transition: .2s;
-    cursor: pointer;
+  color: #da0037;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 #check {
-    display: none;
+  display: none;
 }
 
 #check:checked ~ .nav-menu {
-    height: 95vh;
+  height: 95vh;
 }
 
-#check:checked ~ .nav-menu li{
-    display: block;
+#check:checked ~ .nav-menu li {
+  display: block;
 }
 
 /* <<<<<<<<<< MENU >>>>>>>>>> */
@@ -121,93 +118,90 @@ nav {
 /* <<<<<<<<<< NOSOTROS >>>>>>>>>> */
 
 article {
-    background-color: rgb(221, 221, 221);
-    padding-top: 3em;
+  background-color: rgb(221, 221, 221);
+  padding-top: 3em;
 }
 .info p {
-    color: #000000;
-    margin: 0 2em;
-    line-height: 1.8em;
-    font-size: 1.2em;
-    text-align: center;
+  color: #000000;
+  margin: 0 2em;
+  line-height: 1.8em;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 /* <<<<<<<<<< GALERIA >>>>>>>>>> */
 
 .gallery {
-    padding: 3em 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.gallery h3{
-    padding-bottom: 1em;
-    font-size: 2em;
-    text-align: center;
-    
+.gallery h3 {
+  padding-bottom: 1em;
+  font-size: 2em;
+  text-align: center;
 }
 
 .imagenes {
-    width: 280px;
-    height: 380px;
-    border-radius: 8px;
-    margin: 1em auto;
-    object-fit: cover;
-    filter: grayscale(100%);
+  width: 280px;
+  height: 380px;
+  border-radius: 8px;
+  margin: 1em auto;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .imagenes:hover {
-    filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 /* <<<<<<<<<< GALERIA >>>>>>>>>> */
 
 /* <<<<<<<<<< CONTACTO INFO >>>>>>>>>> */
 
-.contacto { 
-    background-color: rgba(0, 0, 0, .8);
-    padding-top: 1.5em;
-}	
-
-.content-contacto { 
-    margin: 3em 5em;
-    padding-bottom: 3em;
-    color: white;
-    border-bottom: 2px solid white ;
-    text-align: center;
-
+.contacto {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 1.5em;
 }
 
-.content-contacto h4 {  
-    font-size: 1.5em;
-    text-transform: uppercase;
-    margin: 0.5em 0;
-    font-weight: 900;
+.content-contacto {
+  margin: 3em 5em;
+  padding-bottom: 3em;
+  color: white;
+  border-bottom: 2px solid white;
+  text-align: center;
 }
 
-.content-contacto span {    
-    font-weight: 400;
-    text-align: center;
+.content-contacto h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 0.5em 0;
+  font-weight: 900;
 }
 
-.contacto-box { 
-    text-align: center;
+.content-contacto span {
+  font-weight: 400;
+  text-align: center;
 }
 
-.content-contacto:hover {  
-    border-bottom: 2px solid #DA0037;
+.contacto-box {
+  text-align: center;
 }
 
-.fas:hover { 
-    color: #DA0037;
+.content-contacto:hover {
+  border-bottom: 2px solid #da0037;
+}
+
+.fas:hover {
+  color: #da0037;
 }
 /* <<<<<<<<<< CONTACTO INFO >>>>>>>>>> */
 
@@ -215,127 +209,121 @@ article {
 
 /* IMG DE FONDO */
 .form-img {
-    width: 100%;
-    height: 100%;
-    background: url(./img/Beer\ Glass\ Mockup.png) center center no-repeat;
-    background-size: cover;
-    padding: 2em 0;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(./img/Beer\ Glass\ Mockup.png) center center no-repeat;
+  background-size: cover;
+  padding: 2em 0;
+  position: relative;
 }
 
 .form-img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.6); 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 /* IMG DE FONDO */
 
-
 .form-img form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-input, textarea{
-    margin: 1em 0;
-    padding: 1em 0.5em;
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 0.5em;
-    border: 1px solid rgba(0, 0, 0, .9);
-    color: cornsilk;
-    width: 300px;
+input,
+textarea {
+  margin: 1em 0;
+  padding: 1em 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  color: cornsilk;
+  width: 300px;
 }
 
-input::placeholder {  
-    color: cornsilk;
-    text-transform: uppercase;
-    font-size: 0.8em;   
+input::placeholder {
+  color: cornsilk;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
-.form-img h3{ 
-    color: #ffffff;
-    font-size: 2.5em;
-    text-align: center;
-    position: relative;
+.form-img h3 {
+  color: #ffffff;
+  font-size: 2.5em;
+  text-align: center;
+  position: relative;
 }
 
 .contacto-txt-p {
-    color: #DA0037;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    border-style: none;
+  color: #da0037;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-style: none;
 }
 
-
 .form-p {
-    color: white;
-    font-weight: 400;
-    font-size: 0.7em;
-    position: relative;
-    margin: 0 1em;
-    text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 0.7em;
+  position: relative;
+  margin: 0 1em;
+  text-align: center;
 }
 
 .enviar-btn {
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, .5);
-    width: 200px;
-    margin: 1em auto;
-    color: white;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 200px;
+  margin: 1em auto;
+  color: white;
 }
 
 .enviar-btn:hover {
-    background-color: rgba(0, 0, 0, .9);
-    border: 1px solid cornsilk;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid cornsilk;
 }
-
 
 /* <<<<<<<<<< FOOTER >>>>>>>>>> */
-.pie {  
-    background-color: black;
-    max-width: 100%;
-    color: cornsilk;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    
+.pie {
+  background-color: black;
+  max-width: 100%;
+  color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.nav-pie {  
-    text-transform: uppercase;
-    text-align: center;
-    list-style: none;
-    margin: 1.5em 3em;
-    font-size: 300;
+.nav-pie {
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  margin: 1.5em 3em;
+  font-size: 300;
 }
-
 
 .redes {
-    padding: 0.8em 1em;
-    cursor: pointer;
+  padding: 0.8em 1em;
+  cursor: pointer;
 }
 
 .redes:hover {
-    color: black;
-    background-color: white;
-    border-radius: 0.5em;
-    
+  color: black;
+  background-color: white;
+  border-radius: 0.5em;
 }
 .content-pie p {
-    text-align: center;
-    padding-bottom: 1em;
-    
+  text-align: center;
+  padding-bottom: 1em;
 }
 .content-pie span {
-    font-weight: 700;
-    padding-bottom: 1em;   
+  font-weight: 700;
+  padding-bottom: 1em;
 }
