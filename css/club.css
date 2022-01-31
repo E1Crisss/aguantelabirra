@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+  max-width: 100%;
+  height: 100%;
+  background-image: url(../img/Beer\ Bottle\ Mockup.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(197, 192, 176, 0.6);
+  width: 320px;
+  height: 650px;
+  margin: 1.2em auto;
+  border-radius: 1em;
+}
+
+.container__log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 300px;
+  margin: 1.2em auto;
+  border-radius: 1em;
+}
+.container__log--img {
+  width: 250px;
+  padding-top: 1.1em;
+}
+
+.container__log h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container__log--input {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  border-radius: 0.5em;
+  width: 300px;
+  background-color: rgba(255, 255, 250, 0.8);
+  border-style: none;
+}
+
+.container__log--input,
+input::placeholder {
+  color: black;
+}
+
+.container__log--cbx {
+  margin: -0.8em 0em 2em 12em;
+  font-size: 0.8em;
+}
+
+.container__log--cbx a {
+  color: black;
+  font-weight: 700;
+}
+
+.container__log--btn {
+  width: 300px;
+  height: 48px;
+  border-radius: 0.5em;
+  background: black;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.container__log--btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container__log--signin {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+.container__log--signi,
+a {
+  color: black;
+}
