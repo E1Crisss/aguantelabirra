@@ -171,6 +171,7 @@ article {
 
 .imagenes:hover {
   filter: grayscale(0);
+  box-shadow: 2px 8px 1px rgba(0, 0, 0, 0.8);
 }
 
 /* <<<<<<<<<< GALERIA >>>>>>>>>> */
@@ -316,8 +317,13 @@ input::placeholder {
   text-align: center;
   list-style: none;
   margin: 1.5em 3em;
-  font-size: 300;
 }
+
+.nav-pie a:hover{
+    color: #da0037;
+    border-bottom: 2px solid #da0037;
+    font-size: 1.1em;
+  }
 
 .redes {
   padding: 0.8em 1em;
@@ -336,6 +342,7 @@ input::placeholder {
 .content-pie span {
   font-weight: 700;
   padding-bottom: 1em;
+  cursor: pointer;
 }
 
 /* <<<<<<<<<< MEDIAS QUERY >>>>>>>>>> */
@@ -420,11 +427,11 @@ input::placeholder {
         width: 100px;
         display: flex;
         flex-direction: row;
+        margin-top: 2.1em;
     }
     .b-1 a{
         margin: 10px;
         font-size: 1em;
-        
     }
 
     .b-2 {
@@ -434,5 +441,9 @@ input::placeholder {
     .b-3 {
         width: 100%;
     }
+
+    .form-p {
+        margin: 1em auto;
+      }
 }   
 
