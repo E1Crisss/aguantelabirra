@@ -19,7 +19,7 @@ body {
 
 .container {
   background-color: rgba(197, 192, 176, 0.6);
-  width: 320px;
+  width: 300px;
   height: 650px;
   margin: 1.2em auto;
   border-radius: 1em;
@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 320px;
+  width: 310px;
   height: 300px;
   margin: 1.2em auto;
   border-radius: 1em;
@@ -48,7 +48,7 @@ body {
   margin: 1.5em 0;
   padding: 1em 1em;
   border-radius: 0.5em;
-  width: 300px;
+  width: 260px;
   background-color: rgba(255, 255, 250, 0.8);
   border-style: none;
 }
@@ -59,7 +59,7 @@ input::placeholder {
 }
 
 .container__log--cbx {
-  margin: -0.8em 0em 2em 12em;
+  margin: -0.8em 0em 2em 8em;
   font-size: 0.8em;
 }
 
@@ -69,7 +69,7 @@ input::placeholder {
 }
 
 .container__log--btn {
-  width: 300px;
+  width: 260px;
   height: 48px;
   border-radius: 0.5em;
   background: black;
@@ -91,4 +91,21 @@ input::placeholder {
 .container__log--signi,
 a {
   color: black;
+}
+
+/* <<<<<<<<<< MEDIAS QUERY >>>>>>>>>> */
+
+@media only screen and (min-width: 600px) {
+  .container {   
+      width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {   
+      width: 500px;
+}
+  .container__log--input {    
+      width: 300px;
+  }
 }
